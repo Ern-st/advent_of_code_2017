@@ -8,7 +8,6 @@ while boxes[-1] < input:
 	increment += 2
 	boxes.append(pow(increment, 2))
 
-lastBox = range(boxes[-2] + 1, boxes[-1] + 1)
 sideLength = (boxes[-1] - boxes[-2]) / 4
 
 side = boxes[-1]
