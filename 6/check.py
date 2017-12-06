@@ -25,5 +25,3 @@ while True:
 		print "INFINITE LOOP DETECTED!\nRounds used: {0}\nCycles used: {1}".format(rounds, cycles)
 		break;
 	prev.append(input[:])
-
-#print prev
