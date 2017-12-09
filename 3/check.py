@@ -18,3 +18,5 @@ while side > input:
 distance = abs((side + (sideLength/2)) - input )
 
 print "distance = {0}".format( distance + len(boxes) - 1)
+
+# somebody made a list already for part 2 https://oeis.org/A141481/
