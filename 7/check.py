@@ -76,7 +76,7 @@ def recursiveWeightLifter(parent):
 			solution = int(parent.weight) - abs(troubleChildWeight - siblingsWeight)
 		else:
 			solution = int(parent.weight) + abs(troubleChildWeight - siblingsWeight)
-		print "solution for part 2: {}".format(solution)
+		print "solution part 2: {}".format(solution)
 
 		for pre, fill, node in RenderTree(parent):
 			print("%s%s %s" % (pre.encode('utf-8'), node.name.encode('utf-8'), node.weight))
